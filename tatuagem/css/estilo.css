@@ -1,0 +1,308 @@
+@charset "UTF-8";
+@font-face {
+	font-family:'Tattoo Font';
+	src: url("../fonts/MiltonianTattoo-Regular.ttf");
+}
+
+body {
+	font-family:Arial, sans-serif;
+	background:url("../img/fundo.jpg") no-repeat;
+	background-size:100% 100%;
+}
+
+div#container {
+	width:1024px;
+	background-color:#EEE;
+	margin:0px auto 0px auto;
+	box-shadow:0px 0px 20px rgba(0,0,0,1);
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+header#cabecalho {
+	width: 1024px;
+	height:187px;
+	background-color: rgba(17, 17, 17,.6);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding:20px 0px 0px 0px;
+}
+
+.logo {
+	width:1024px;
+	height: 187px;
+	position: absolute;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contato {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	padding-left: 408px;
+	padding-top: 59px;
+}
+
+.menu {
+	width: 1024px;
+	height: 40px;
+	background: linear-gradient(#91001A, #5E0010);
+	position: absolute;
+	margin-top: 186.5px;
+	text-align: center;
+
+}
+
+.itens {
+	font-family: 'Tattoo Font', Arial, sans-serif;
+	font-size:19px;
+	color: #FFFFFF;
+	margin-left: 15px;
+	margin-top: 10px;
+	word-spacing: 24px;
+}
+
+#slides {
+	width: 1024px;
+	height: 300px;
+	background-color: #363636;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.classSlide {
+	width: 920px;
+	height: 270px;
+	background-color: #FFFFFF;
+	position: absolute;
+	margin-top: 15px;
+	margin-left: 52px;
+}
+
+.imgSlide {
+	width: 890px;
+	height: 230px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 20px;
+} 
+
+.forward {
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 210px;
+	z-index: 5;	
+}
+
+.backward {
+	position: absolute;
+	margin-left: 810px;
+	margin-top: 210px;
+	z-index: 5;
+}
+
+#topicos {
+	width: 1024px;
+	height: 300px;
+	background-color: #757475;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topico1 {
+	width: 210px;
+	height: 150px;
+	border: 2px solid #A6A6A6;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 52px;
+} 
+
+.topico2 {
+	width: 210px;
+	height: 150px;
+	border: 2px solid #A6A6A6;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 290px;
+} 
+
+.topico3 {
+	width: 210px;
+	height: 150px;
+	border: 2px solid #A6A6A6;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 528px;
+} 
+
+.topico4 {
+	width: 210px;
+	height: 150px;
+	border: 2px solid #A6A6A6;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 766px;
+} 
+
+.txt_topico1 {
+	position: absolute;
+	font-family: Arial, sans-serif;
+	margin-left: 52px;
+	padding-top: 165px;
+	word-spacing: 6px;
+}
+
+.img_topico1 {
+	width: 195px;
+	height: 135px;
+	position: absolute;
+	margin-left: 7.5px;
+	margin-top: 7.5px;
+}
+
+.img_topico2 {
+	width: 195px;
+	height: 135px;
+	position: absolute;
+	margin-left: 7.5px;
+	margin-top: 7.5px;
+}
+
+.img_topico3 {
+	width: 195px;
+	height: 135px;
+	position: absolute;
+	margin-left: 7.5px;
+	margin-top: 7.5px;
+}
+
+.img_topico4 {
+	width: 195px;
+	height: 135px;
+	position: absolute;
+	margin-left: 7.5px;
+	margin-top: 7.5px;
+}
+
+
+.txt_topico2 {
+	position: absolute;
+	font-family: Arial, sans-serif;
+	margin-left: 290px;
+	padding-top: 165px;
+	word-spacing: 6px;
+}
+
+.txt_topico3 {
+	position: absolute;
+	font-family: Arial, sans-serif;
+	margin-left: 528px;
+	padding-top: 165px;
+	word-spacing: 6px;
+}
+
+.txt_topico4 {
+	position: absolute;
+	font-family: Arial, sans-serif;
+	margin-left: 766px;
+	padding-top: 165px;
+	word-spacing: 6px;
+}
+
+#inferior {
+	width: 1024px;
+	height: 135px;
+	background-color: #363636;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.retornar {
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 28px;
+}
+
+.redes {
+	font-family: Arial, sans-serif;
+	color: #FFFFFF;
+	position: absolute;
+	margin-top: 45px;
+	margin-left: 700px;
+}
+
+.facebook {
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	margin-left: 760px;
+	margin-top: 65px;
+}
+
+.twitter {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-left: 860px;
+	margin-top: 70px;
+}
+
+#rodape {
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	font-family: Arial, sans-serif;
+	color: #FFFFFF;
+	font-size: 19px;
+	position: absolute;
+	margin-left: 182px;
+	margin-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+#form {
+	width: 960px;
+	background-color: #363636;
+}
+
+.classForm {
+	position: absolute;
+	margin-top: 300px;
+}
+
+.selectSexo {
+	position: absolute;
+}
+
+.faleCadastro {
+	position: absolute;
+	margin-top: 250px;
+	font-family: "Arial Black", Arial, sans-serif;
+	font-weight: bold;
+	color: #ff0000;
+}
