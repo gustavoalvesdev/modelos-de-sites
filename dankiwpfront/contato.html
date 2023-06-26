@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danki Code - Tema</title>
+    <link rel icon="https://cursos.dankicode.com/app/Views/public/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="topo">
+        <div class="center">
+            <header>
+                <div class="logo"><img src="images/logo.png" /></div>
+                <!-- logo -->
+            </header>
+            <ul class="menu-desktop">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <!-- menu-desktop -->
+            <div class="menu-mobile">
+                <i class="fas fa-align-right"></i>
+                <!-- fas -->
+                <ul>
+                    <i><a href="#">Home</a></i>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <!-- menu-mobile -->
+            <div class="clear"></div>
+            <!-- clear -->
+            <br />
+            <br />
+            <div class="w50 time-descricao">
+                <h2>Melhore a comunicação com seu cliente e time.</h2>
+                <p>Consultoria especializada em startups, empresas, principalmente, pessoas.</p>
+                <a href="https://dankicode.com" target="_blank">Ver demonstração</a>
+            </div>
+            <!-- w50 -->
+            <div class="w50 time-imagem">
+                <img src="images/equipe.png" />
+            </div>
+            <!-- w50 -->
+            <div class="clear"></div>
+            <!-- clear -->
+        </div>
+    </section>
+    <!-- topo -->
+
+    <section class="contato">
+        <div class="center">
+            <div class="w50 contato-info">
+                <h2>A mais importante,<br/>primeira conversa.</h2>
+                <br />
+                <p><b>Telefone:</b> (48) 9901-3620</p> 
+                <p><b>Telefone:</b> (48) 9901-3620</p> 
+                <p><b>Telefone:</b> (48) 9901-3620</p> 
+
+                <div class="mapa-container">
+                    <div id="mapa"></div>
+                    <!-- mapa -->
+                </div>
+                <!-- mapa-container -->
+            </div>
+            <!-- contato-info -->
+
+            <div class="w50 contato-form">
+                <form>
+                    <input type="text" placeholder="Nome" />
+                    <input type="text" placeholder="E-mail" />
+                    <input type="text" placeholder="Telefone" />
+                    <select>
+                        <option>Geral</option>
+                        <option>Suporte</option>
+                    </select>  
+                    <textarea placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar!" />
+                </form>
+            </div>
+            <!-- w50 -->
+            <div class="clear"></div>
+            <!-- clear -->
+        </div>
+        <!-- center -->
+    </section>
+    <!-- contato -->
+    <footer>
+        <section class="metodologia">
+            <div class="center">
+                <h2>Conheça nossa Metodologia</h2>
+                <p>O que acha de fazermos o que mais gostamos de fazer? Conversar!<br />Entre em contato por e-mail ou telefone.</p>
+                <a href="/contato">Entrar em Contato</a>
+            </div>
+            <!-- center -->
+        </section>
+        <!-- metodologia -->
+        <div class="center">
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="#">Contato</a>
+                <a href="#">FAQ</a>
+            </div>
+            <!-- col-footer -->
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="#">Contato</a>
+                <a href="#">FAQ</a>
+            </div>
+            <!-- col-footer -->
+            <div class="col-footer">
+                <h2>Suporte</h2>
+                <a href="#">Contato</a>
+                <a href="#">FAQ</a>
+            </div>
+            <!-- col-footer -->
+            <div style="width: 40%; text-align: right;" class="col-footer">
+                <img src="images/logo-footer.png" />
+            </div>
+            <!-- col-footer -->
+        </div>
+        <!-- center -->
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDHPNQxozOzQSZ-djvWGOBUsHkBUoT_qH4"></script>
+    <script src="js/map.js"></script>
+    <script>
+        //Menu responsivo.
+        $('.menu-mobile i').clic(function() {
+            $('.menu-mobile').find('ul').slideToggle();
+        })
+    </script>
+</body>
+</html>
