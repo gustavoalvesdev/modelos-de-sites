@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    background: #FAF9FC;
+    height: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    background: #2D3035;
+    height: 100%;
+    max-width: 300px;
+}
+
+.topo {
+    background: #26282D;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.topo h3 {
+    color: white;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu li {
+    font-size: 18px;
+    color: #7D7D7D;
+    margin-bottom: 20px;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+.menu li:hover i {
+    transition: 1s;
+    color: #7D40D5;
+}
+
+.menu li:hover a {
+    transition: 1s;
+    color: #FFFFFF;
+}
